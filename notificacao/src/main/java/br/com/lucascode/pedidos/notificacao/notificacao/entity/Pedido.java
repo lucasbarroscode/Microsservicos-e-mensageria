@@ -1,9 +1,11 @@
-package br.com.lucascode.pedidos.api.entity;
+package br.com.lucascode.pedidos.notificacao.notificacao.entity;
 
+
+import br.com.lucascode.pedidos.notificacao.notificacao.entity.enums.Status;
 import com.fasterxml.jackson.annotation.JsonFormat;
-
-import br.com.lucascode.pedidos.api.entity.enums.Status;
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;

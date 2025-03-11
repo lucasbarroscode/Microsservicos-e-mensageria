@@ -1,4 +1,4 @@
-package br.com.lucascode.pedidos.api.enums;
+package br.com.lucascode.pedidos.api.entity.enums;
 
 public enum Status {
 

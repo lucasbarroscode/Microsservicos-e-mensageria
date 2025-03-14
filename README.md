@@ -8,4 +8,7 @@ docker-compose up -d
 
 
 <h2>Links importantes </h2>
+RabbitMq:
 http://localhost:15672/
+MailHog:
+http://localhost:8025/

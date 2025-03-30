@@ -15,7 +15,7 @@ public class EmailService {
 
     public void enviarEmail(Pedido pedido){
         SimpleMailMessage simpleMailMessage = new SimpleMailMessage();
-        simpleMailMessage.setFrom("pedidos-api@compony.com");
+        simpleMailMessage.setFrom("pedidos-api@companny.com");
         simpleMailMessage.setTo(pedido.getEmailNotificacao());
         simpleMailMessage.setSubject("Pedido de Compra");
         simpleMailMessage.setText(this.gerarMensagem(pedido));

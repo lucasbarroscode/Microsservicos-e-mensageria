@@ -11,21 +11,18 @@ import lombok.NoArgsConstructor;
 
 import java.util.UUID;
 
-@Data
 @AllArgsConstructor
 @NoArgsConstructor
+@Data
 @Entity
 @Table(name = "item_pedido")
 public class ItemPedido {
 
     @Id
     private UUID id = UUID.randomUUID();
-
     @ManyToOne
     private Produto produto;
-    
     private Integer quantidade;
-
     @ManyToOne
     private Pedido pedido;
 

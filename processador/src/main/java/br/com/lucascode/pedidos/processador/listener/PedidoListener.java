@@ -1,7 +1,10 @@
 package br.com.lucascode.pedidos.processador.listener;
 
+
 import br.com.lucascode.pedidos.processador.entity.Pedido;
 import br.com.lucascode.pedidos.processador.entity.enums.Status;
+import br.com.lucascode.pedidos.processador.entity.enums.Status;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;

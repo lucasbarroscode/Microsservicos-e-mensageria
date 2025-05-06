@@ -1,6 +1,5 @@
 <h2>Diagrama do Projeto</h2>
-![img.png](img.png)
-
+![Diagrama.PNG](imagens%2FDiagrama.PNG)
 
 
 <h2>Comandos para executar o projeto </h2>

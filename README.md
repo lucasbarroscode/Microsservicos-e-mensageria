@@ -16,10 +16,8 @@ docker-compose up -d
 
 ---
 
-<br>
-TODO
-<br>
-![PrintToDo](https://github.com/user-attachments/assets/4f95a4a0-5b87-44fa-9bb4-9eae0f81a636)
+## ✅ TODO
+![PrintToDo.PNG](imagens/PrintToDo.PNG)
 
 melhorar, adicionar a funcionalidade de mandar o email de pedido processado
 

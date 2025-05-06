@@ -23,7 +23,7 @@ public class PedidoService {
         this.itemPedidoService = itemPedidoService;
     }
 
-    private void save(Pedido pedido){
+    public void save(Pedido pedido){
 
         //salvar produtos
         produtoService.save(pedido.getItens());

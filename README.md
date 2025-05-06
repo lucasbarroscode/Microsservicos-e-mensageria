@@ -12,3 +12,9 @@ RabbitMq:<br>
 http://localhost:15672/<br>
 MailHog:<br>
 http://localhost:8025/<br>
+
+<br>
+TODO
+<br>
+![img_1.png](img_1.png)
+melhorar, adicionar a funcionalidade de mandar o email de pedido processado

@@ -2,9 +2,25 @@
 
 ![Diagrama do Projeto](imagens/Diagrama.PNG)
 
+---
 
-<h2>Comandos para executar o projeto </h2>
+
+## 🚀 Comandos para Executar o Projeto
+
+Para subir o ambiente, execute:
+
+```bash
 docker-compose up -d
+```
+
+## ✅ Ordem de Execução dos Serviços
+
+Após subir os containers, execute os serviços na seguinte ordem:
+
+1. **StartUp**
+2. **NotificacaoApplication**
+3. **ProcessadorApplication**
+
 
 
 ---
